@@ -1,0 +1,181 @@
+body {
+    padding: 0 75px 50px;
+    font-family: Segoe UI, SegoeUI,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+.header a {
+    color: #000;
+}
+
+.header a:hover {
+    border-bottom: 2px solid #000;
+}
+
+.header-main-links img {
+    width: 110px;
+    cursor: pointer;
+}
+
+.header-main-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-nav-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-nav-links span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.header-nav-links span:nth-child(2) img {
+    width: 18px;
+}
+
+.header-nav-links span:last-child img {
+    width: 32px;
+}
+
+.illus {
+    background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWLAmj?ver=35aa&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true");
+    background-size: 100%;
+    width: 100%;
+    height: 510px;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.illus h1, p {
+    color: #fff;
+}
+
+.illus h1 {
+    font-weight: 500;
+    font-size: 34px;
+    margin-top: 11%;
+    margin-bottom: 0;
+}
+
+.illus p {
+    font-size: 15px;
+}
+
+.illus button {
+    height: 40px;
+    width: 262px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #fff;
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: .2s;
+}
+
+.illus button img {
+    width: 12px;
+    transform: rotate(-90deg);
+}
+
+.illus button:hover {
+    text-decoration: underline;
+    gap: 20px;
+    transition: .2s;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.nav div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav div img {
+    width: 100%;
+}
+
+.nav div a img {
+    width: 10px;
+    height: 10px;
+    transform: rotate(-90deg);
+    filter: invert(25%) sepia(96%) saturate(1429%) hue-rotate(187deg) brightness(96%) contrast(102%);
+    /* position: absolute; */
+}
+
+.nav div p {
+    color: #000;
+    margin: 10px 0 0;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.nav div h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 40px 0 0;
+}
+
+.nav div a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+    /* position: relative; */
+    transition: .2s;
+}
+
+.nav div a:hover {
+    gap: 10px;
+    transition: .2s;
+    text-decoration: underline;
+}
+
+.nav div a p {
+    color: #0067b8;
+    font-weight: 500;
+    margin: 0;
+}
+
+.nav div span {
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+#ashka {
+    position: absolute;
+    left: 50%;
+}
