@@ -1,0 +1,8 @@
+<div class="container">
+  <a routerLink="/"><h1>HeadHunter</h1></a>
+  <h2 class="mt-5">List of Companies:</h2>
+  <div *ngFor="let company of companies" class="btn p-5 mt-3 me-3 border" (click)="openVacancies(company.id)">
+    <h4>{{ company.name }}</h4>
+    <p>{{ company.city }}</p>
+  </div>
+</div>
